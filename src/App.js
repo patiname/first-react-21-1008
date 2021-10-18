@@ -2,8 +2,11 @@
 // import { FnComponent } from "./02.component/FnComponent";
 // import { Food } from "./02.component/Food";
 // import "./style.css";
-import Kakao from "./03.map/Kakao";
-import { MapFn } from "./03.map/MapFn";
+// import Kakao from "./03.map/Kakao";
+// import { MapFn } from "./03.map/MapFn";
+import { BaseStyle } from "./04.styledComponent/BaseStyle";
+import { StyeldCom } from "./04.styledComponent/StyeldCom";
+import { GlobalStyle } from "./GlobalStyled/GlobalStyle";
 
 // const foods = [
 //   {
@@ -42,7 +45,12 @@ function App() {
       {/* 2일차  */}
 
       {/* <MapFn /> */}
-      <Kakao />
+      {/* <Kakao /> */}
+      {/* 3일차 */}
+
+      {/* <BaseStyle /> */}
+
+      <StyeldCom />
     </>
   );
 }
