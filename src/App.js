@@ -6,6 +6,7 @@
 // import { MapFn } from "./03.map/MapFn";
 import { BaseStyle } from "./04.styledComponent/BaseStyle";
 import { StyeldCom } from "./04.styledComponent/StyeldCom";
+import { StyledCon } from "./05.Content/StyledCon";
 import { GlobalStyle } from "./GlobalStyled/GlobalStyle";
 
 // const foods = [
@@ -49,8 +50,13 @@ function App() {
       {/* 3일차 */}
 
       {/* <BaseStyle /> */}
+      {/* 4일차 */}
 
-      <StyeldCom />
+      {/* <StyeldCom /> */}
+      {/* 5일차 */}
+
+      <GlobalStyle />
+      <StyledCon />
     </>
   );
 }
