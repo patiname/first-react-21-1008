@@ -13,6 +13,14 @@ export const DarkMode = {
   fontColor: dark ? "white" : "#333",
 };
 
+export const Icons = {
+  random: <i class="fas fa-random"></i>,
+  preArrow: <i class="fas fa-angle-double-left"></i>,
+  play: <i class="fas fa-play"></i>,
+  nextArrow: <i class="fas fa-angle-double-right"></i>,
+  shear: <i class="fas fa-retweet"></i>,
+};
+
 export const GlobalStyle = createGlobalStyle`
     ${reset}
 

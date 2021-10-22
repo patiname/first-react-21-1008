@@ -7,6 +7,7 @@
 import { BaseStyle } from "./04.styledComponent/BaseStyle";
 import { StyeldCom } from "./04.styledComponent/StyeldCom";
 import { StyledCon } from "./05.Content/StyledCon";
+import { Music } from "./06.MusicApp/Music";
 import { GlobalStyle } from "./GlobalStyled/GlobalStyle";
 
 // const foods = [
@@ -40,6 +41,7 @@ import { GlobalStyle } from "./GlobalStyled/GlobalStyle";
 function App() {
   return (
     <>
+      <GlobalStyle />
       {/* <FnComponent foodName={"피자"} dinner={"샐러드"} menu={foods} />
       <ClassComponent nickName={"이정환"} age={24} menu={foods} />
       <Food menu={foods} /> */}
@@ -55,8 +57,9 @@ function App() {
       {/* <StyeldCom /> */}
       {/* 5일차 */}
 
-      <GlobalStyle />
-      <StyledCon />
+      {/* <StyledCon /> */}
+
+      <Music />
     </>
   );
 }
