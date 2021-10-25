@@ -8,6 +8,7 @@
 // import { StyeldCom } from "./04.styledComponent/StyeldCom";
 // import { StyledCon } from "./05.Content/StyledCon";
 // import { Music } from "./06.MusicApp/Music";
+import { AniEvent } from "./07.Event/AniEvent";
 import { ClassEvent } from "./07.Event/ClassEvent";
 import { ColorEvent } from "./07.Event/ColorEvent";
 import { FnEvent } from "./07.Event/FnEvent";
@@ -67,6 +68,7 @@ function App() {
       {/* <ClassEvent /> */}
       {/* <FnEvent /> */}
       <ColorEvent />
+      {/* <AniEvent /> */}
     </>
   );
 }
