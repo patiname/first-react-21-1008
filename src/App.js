@@ -9,9 +9,12 @@
 // import { StyledCon } from "./05.Content/StyledCon";
 // import { Music } from "./06.MusicApp/Music";
 import { AniEvent } from "./07.Event/AniEvent";
+import { AnimationEvent } from "./07.Event/AnimationEvent";
 import { ClassEvent } from "./07.Event/ClassEvent";
 import { ColorEvent } from "./07.Event/ColorEvent";
 import { FnEvent } from "./07.Event/FnEvent";
+import { Popup } from "./07.Event/Popup";
+import { UseRoute } from "./08.router/UseRoute";
 import { GlobalStyle } from "./GlobalStyled/GlobalStyle";
 
 // const foods = [
@@ -67,8 +70,13 @@ function App() {
 
       {/* <ClassEvent /> */}
       {/* <FnEvent /> */}
-      <ColorEvent />
+      {/* <ColorEvent /> */}
       {/* <AniEvent /> */}
+      {/* <Popup /> */}
+      {/* <AnimationEvent /> */}
+      {/* 7일차 */}
+
+      <UseRoute />
     </>
   );
 }
