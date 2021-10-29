@@ -4,10 +4,6 @@ import styled from "styled-components";
 const Section = styled.section`
   height: 700px;
   background-color: gray;
-  h3 {
-    margin-top: 100px;
-    font-size: 100px;
-  }
 `;
 
 export const Home = () => {

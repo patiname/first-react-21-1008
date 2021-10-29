@@ -8,9 +8,6 @@ const SHeader = styled.header`
   top: 0;
   left: 0;
   background-color: gold;
-  a {
-    color: white;
-  }
 `;
 const Logo = styled.div``;
 const Nav = styled.div``;
