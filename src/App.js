@@ -16,6 +16,8 @@
 // import { Popup } from "./07.Event/Popup";
 // import { UseRoute } from "./08.router/UseRoute";
 import { BaseWebRoute } from "./09.BaseWeb/BaseWebRoute";
+import { Login } from "./10.form/Login";
+import { MainRouter } from "./10.form/MainRouter";
 import { GlobalStyle } from "./GlobalStyled/GlobalStyle";
 
 // const foods = [
@@ -80,9 +82,22 @@ function App() {
       {/* <UseRoute /> */}
       {/* 8일차 */}
 
-      <BaseWebRoute />
+      {/* <BaseWebRoute /> */}
+      {/* 9일차 */}
+
+      {/* <Login /> */}
+      <MainRouter />
     </>
   );
 }
 
 export default App;
+
+// 1.아이디
+// =>아이디 유무 파악 -> 유:아이디 성공, 무:아이디가 없습니다
+// =>몇자 이상 작성하기 -> 이하: 메세지, 이상:""
+
+// 2.패스워드
+// =>패스워드 옳은지 아닌지 파악 -> 틀리다:"메세지", 성공:"로그인"
+// =>몇자 이상 작성하기 -> 이하: 메세지, 이상:""
+//=>react-hook-form
